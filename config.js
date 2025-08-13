@@ -1,1 +1,100 @@
-{"property":{"streetAddress":"146 Oxford Street W","city":"Kemptville","cityStateZip":"Kemptville, ON K0G 1J0","heroSubtitle":"Location! Walkable Location - Close to Downtown, shopping, and easy access to the HWY. Adult Living Community in Country Walk. Gorgeous finishes inside and out! Register for the Home & Neighbourhood Info Package, virtual tour, and property details.","backgroundImageUrl":"https://api.typeform.com/responses/files/bd60435149244a5ca055aebc49c03cd145f226135e7b17977e7884bf0d84b90a/9_web_or_mls_09.jpg","listingPrice":"$599,900","beds":"1+1","baths":"3","homeType":"Bungalow Townhome","propertyFeatures":["Main Floor Living","Turn Key","Meticulously Maintained"],"neighbourhoodInfo":"Beautiful A+ Curb Appeal, Adult Oriented, Close to Grocery Stores, the River, shops, and more","listingUrl":"https://driscollpeca.com/mylistings.html/listing.x12260188-146-oxford-street-w-north-grenville-k0g-1j0.106263588","virtualTourUrl":"https://my.matterport.com/show/?m=8MQLSSn3tmJ","photos":["https://api.typeform.com/responses/files/bd60435149244a5ca055aebc49c03cd145f226135e7b17977e7884bf0d84b90a/9_web_or_mls_09.jpg","https://api.typeform.com/responses/files/e18f3b1681c8d5fdb56f47f8e9ed89d354f378d5a9b776a6508f02a28ed61642/5_web_or_mls_05.jpg"]},"realtor":{"fullName":"Driscoll-Peca Team","email":"melissa@driscollpeca.com","bio":"","photoUrl":null,"phone":null,"social":{"facebook":"https://www.facebook.com/driscollpecateam","instagram":"https://instagram.com/ae.parks","website":"https://driscollpeca.com/"}},"brokerage":{"name":"Real Broker LTD","logoUrl":null,"address":"218 Brant Avenue\nBrantford ON N3T 3H9"},"openHouse":{"eventDate":"2025-08-16","bundleItems":[{"icon":"fas fa-link","text":"Property Listing URL"},{"icon":"fas fa-image","text":"Photos"},{"icon":"fas fa-video","text":"Virtual Tour"}]},"meta":{"pageTitlePrefix":"🏡 Driscoll-Peca Team Open House","navBrandLogoText":"OPEN HOUSE","privacyPolicyLink":"https://driscollpeca.com/privacy.html"},"settings":{"adminWebhookUrl":"https://n8n.salesgenius.co/webhook/openhouseupdate","visitorWebhookUrl":"https://n8n.salesgenius.co/webhook/openhouse","confettiColors":["#6187a7","#f0e9d6","#ffffff","#83a363","#d9ac68"]},"modalQuestions":[{"id":"agent_status","questionText":"Are you currently exploring homes with a real estate agent?","options":[{"value":"committed","text":"Yes, I'm committed to an agent."},{"value":"not_committed","text":"No, I'm not committed to an agent."},{"value":"gathering_info","text":"Just gathering information at this stage."}]},{"id":"interest_level","questionText":"How interested are you in properties like this?","options":[{"value":"very_interested","text":"Very interested, actively looking."},{"value":"somewhat_interested","text":"Somewhat interested, keeping options open."},{"value":"just_browsing","text":"Just browsing for now."}]},{"id":"neighborhood_engagement","questionText":"How do you usually enjoy the neighborhood?","options":[{"value":"resident_explorer","text":"I live here and love exploring locally."},{"value":"considering_move","text":"I'm considering moving to this area."},{"value":"just_visiting","text":"Just visiting for the open house."}]},{"id":"feature_attraction","questionText":"What feature attracted you to this home?","options":[{"value":"design_layout","text":"The design and layout."},{"value":"location_neighborhood","text":"The location and neighborhood."},{"value":"home_price","text":"The price of the home."}]}],"deploymentInfo":{"repoName":"Open-House-687","repoUrl":"https://github.com/arslvn93/Open-House-687","tag":"Open House 146 Oxford Street W","siteId":"1037407479"}}
+const config = {
+  "property": {
+    "streetAddress": "146 Oxford Street W",
+    "city": "Kemptville",
+    "cityStateZip": "Kemptville, ON K0G 1J0",
+    "heroSubtitle": "Location! Walkable Location - Close to Downtown, shopping, and easy access to the HWY. Adult Living Community in Country Walk. Gorgeous finishes inside and out! Register for the Home & Neighbourhood Info Package, virtual tour, and property details.",
+    "backgroundImageUrl": "https://api.typeform.com/responses/files/bd60435149244a5ca055aebc49c03cd145f226135e7b17977e7884bf0d84b90a/9_web_or_mls_09.jpg",
+    "listingPrice": "$599,900",
+    "beds": "1+1",
+    "baths": "3",
+    "homeType": "Bungalow Townhome",
+    "propertyFeatures": ["Main Floor Living", "Turn Key", "Meticulously Maintained"],
+    "neighbourhoodInfo": "Beautiful A+ Curb Appeal, Adult Oriented, Close to Grocery Stores, the River, shops, and more",
+    "listingUrl": "https://driscollpeca.com/mylistings.html/listing.x12260188-146-oxford-street-w-north-grenville-k0g-1j0.106263588",
+    "virtualTourUrl": "https://my.matterport.com/show/?m=8MQLSSn3tmJ",
+    "photos": [
+      "https://api.typeform.com/responses/files/bd60435149244a5ca055aebc49c03cd145f226135e7b17977e7884bf0d84b90a/9_web_or_mls_09.jpg",
+      "https://api.typeform.com/responses/files/e18f3b1681c8d5fdb56f47f8e9ed89d354f378d5a9b776a6508f02a28ed61642/5_web_or_mls_05.jpg"
+    ]
+  },
+  "realtor": {
+    "fullName": "Driscoll-Peca Team",
+    "email": "melissa@driscollpeca.com",
+    "bio": "",
+    "photoUrl": null,
+    "phone": null,
+    "social": {
+      "facebook": "https://www.facebook.com/driscollpecateam",
+      "instagram": "https://instagram.com/ae.parks",
+      "website": "https://driscollpeca.com/"
+    }
+  },
+  "brokerage": {
+    "name": "Real Broker LTD",
+    "logoUrl": null,
+    "address": "218 Brant Avenue\nBrantford ON N3T 3H9"
+  },
+  "openHouse": {
+    "eventDate": "2025-08-16",
+    "bundleItems": [
+      { "icon": "fas fa-link", "text": "Property Listing URL" },
+      { "icon": "fas fa-image", "text": "Photos" },
+      { "icon": "fas fa-video", "text": "Virtual Tour" }
+    ]
+  },
+  "meta": {
+    "pageTitlePrefix": "🏡 Driscoll-Peca Team Open House",
+    "navBrandLogoText": "OPEN HOUSE",
+    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
+  },
+  "settings": {
+    "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
+    "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
+    "confettiColors": ["#6187a7","#f0e9d6","#ffffff","#83a363","#d9ac68"]
+  },
+  "modalQuestions": [
+    {
+      "id": "agent_status",
+      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "options": [
+        { "value": "committed", "text": "Yes, I'm committed to an agent." },
+        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
+        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+      ]
+    },
+    {
+      "id": "interest_level",
+      "questionText": "How interested are you in properties like this?",
+      "options": [
+        { "value": "very_interested", "text": "Very interested, actively looking." },
+        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
+        { "value": "just_browsing", "text": "Just browsing for now." }
+      ]
+    },
+    {
+      "id": "neighborhood_engagement",
+      "questionText": "How do you usually enjoy the neighborhood?",
+      "options": [
+        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
+        { "value": "considering_move", "text": "I'm considering moving to this area." },
+        { "value": "just_visiting", "text": "Just visiting for the open house." }
+      ]
+    },
+    {
+      "id": "feature_attraction",
+      "questionText": "What feature attracted you to this home?",
+      "options": [
+        { "value": "design_layout", "text": "The design and layout." },
+        { "value": "location_neighborhood", "text": "The location and neighborhood." },
+        { "value": "home_price", "text": "The price of the home." }
+      ]
+    }
+  ],
+  "deploymentInfo": {
+    "repoName": "Open-House-687",
+    "repoUrl": "https://github.com/arslvn93/Open-House-687",
+    "tag": "Open House 146 Oxford Street W",
+    "siteId": "729ea5f1-ce62-48cd-bc39-3a4735d91026"
+  }
+};
