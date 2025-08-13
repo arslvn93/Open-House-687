@@ -9,7 +9,11 @@ const config = {
     "beds": "1+1",
     "baths": "3",
     "homeType": "Bungalow Townhome",
-    "propertyFeatures": ["Main Floor Living", "Turn Key", "Meticulously Maintained"],
+    "propertyFeatures": [
+      "Main Floor Living",
+      "Turn Key",
+      "Meticulously Maintained"
+    ],
     "neighbourhoodInfo": "Beautiful A+ Curb Appeal, Adult Oriented, Close to Grocery Stores, the River, shops, and more",
     "listingUrl": "https://driscollpeca.com/mylistings.html/listing.x12260188-146-oxford-street-w-north-grenville-k0g-1j0.106263588",
     "virtualTourUrl": "https://my.matterport.com/show/?m=8MQLSSn3tmJ",
@@ -20,27 +24,36 @@ const config = {
   },
   "realtor": {
     "fullName": "Driscoll-Peca Team",
-    "email": "melissa@driscollpeca.com",
-    "bio": "",
-    "photoUrl": null,
-    "phone": null,
+    "email": "info@driscollpeca.com",
+    "bio": "\nServicing Ottawa and the surrounding areas.\nWith years of real estate service under our belt, we can assure you that you are in good hands with our team. We are committed to listening to our clients, focusing on their needs and using keen negotiating skills to ensure a successful transaction for both buyers and sellers.\n\nWith deep local knowledge and a true passion for real estate, we're committed to helping you find the perfect place to call home. Let's make your next move an exciting and rewarding one — we can't wait to work with you!",
+    "photoUrl": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/501007075_1162856959185982_7300747109926284830_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ujmaQ8-cU7wQ7kNvwGNrss5&_nc_oc=AdmXRGJRNE6KN9yKfGEGyxww6ZN3NoHs8vatl7RgFJcCjbqXdLT2VX4Cui03sln1jN4&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=cF8ZioXg_a4m5lwdCCy1LA&oh=00_AfXslNVxyF_DVpzv7l0C80yMSn_2qCv17TIzsuaewgcnzA&oe=68A2BD45",
+    "phone": "",
     "social": {
       "facebook": "https://www.facebook.com/driscollpecateam",
-      "instagram": "https://instagram.com/ae.parks",
+      "instagram": "https://instagram.com/driscollpecateam",
       "website": "https://driscollpeca.com/"
     }
   },
   "brokerage": {
     "name": "Real Broker LTD",
-    "logoUrl": null,
-    "address": "218 Brant Avenue\nBrantford ON N3T 3H9"
+    "logoUrl": "",
+    "address": "218 Brant AvenueBrantford ON N3T 3H9"
   },
   "openHouse": {
     "eventDate": "2025-08-16",
     "bundleItems": [
-      { "icon": "fas fa-link", "text": "Property Listing URL" },
-      { "icon": "fas fa-image", "text": "Photos" },
-      { "icon": "fas fa-video", "text": "Virtual Tour" }
+      {
+        "icon": "fas fa-link",
+        "text": "Property Listing URL"
+      },
+      {
+        "icon": "fas fa-image",
+        "text": "Photos"
+      },
+      {
+        "icon": "fas fa-video",
+        "text": "Virtual Tour"
+      }
     ]
   },
   "meta": {
@@ -51,43 +64,85 @@ const config = {
   "settings": {
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
-    "confettiColors": ["#6187a7","#f0e9d6","#ffffff","#83a363","#d9ac68"]
+    "confettiColors": [
+      "#6187a7",
+      "#f0e9d6",
+      "#ffffff",
+      "#83a363",
+      "#d9ac68"
+    ]
   },
   "modalQuestions": [
     {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
       ]
     },
     {
       "id": "interest_level",
       "questionText": "How interested are you in properties like this?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        {
+          "value": "very_interested",
+          "text": "Very interested, actively looking."
+        },
+        {
+          "value": "somewhat_interested",
+          "text": "Somewhat interested, keeping options open."
+        },
+        {
+          "value": "just_browsing",
+          "text": "Just browsing for now."
+        }
       ]
     },
     {
       "id": "neighborhood_engagement",
       "questionText": "How do you usually enjoy the neighborhood?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        {
+          "value": "resident_explorer",
+          "text": "I live here and love exploring locally."
+        },
+        {
+          "value": "considering_move",
+          "text": "I'm considering moving to this area."
+        },
+        {
+          "value": "just_visiting",
+          "text": "Just visiting for the open house."
+        }
       ]
     },
     {
       "id": "feature_attraction",
       "questionText": "What feature attracted you to this home?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        {
+          "value": "design_layout",
+          "text": "The design and layout."
+        },
+        {
+          "value": "location_neighborhood",
+          "text": "The location and neighborhood."
+        },
+        {
+          "value": "home_price",
+          "text": "The price of the home."
+        }
       ]
     }
   ],
@@ -95,6 +150,7 @@ const config = {
     "repoName": "Open-House-687",
     "repoUrl": "https://github.com/arslvn93/Open-House-687",
     "tag": "Open House 146 Oxford Street W",
-    "siteId": "729ea5f1-ce62-48cd-bc39-3a4735d91026"
+    "siteId": "729ea5f1-ce62-48cd-bc39-3a4735d91026",
+    "netlifyUrl": ""
   }
 };
